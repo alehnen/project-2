@@ -1,51 +1,80 @@
-<!DOCTYPE html>
-<html> 
+<!DOCTYPE html> 
+<html>  
   <head>
-    <title>Project 2</title>
+    <title>Project 2</title> 
+    <style>
+        body {
+            background-color: rgb(78, 46, 46); 
+            text-align: center;
+        } 
+        .nav {
+             background-color: rgb(241, 193, 193); 
+             font-size:large; 
+             font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            } 
+        .abt {
+            background-color: rgb(207, 164, 164); 
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        } 
+        .fact {
+            background-color:rgb(180, 148, 148);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        } 
+        .contact { 
+            background-color:rgb(145, 118, 118); 
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        } 
+        footer { 
+            color: bisque;
+        }
+    </style>
   </head>
 
-  <body> 
+<body> 
     <img src= "https://i.pinimg.com/564x/87/5d/d3/875dd3e929b0b528aadc232b1a71c956.jpg" 
      alt= "You are seeing a painting of people dancing under string lights." 
      title= "Jack Vetttriano Dancing Painting" 
      width= "500" 
-     height= "600" 
+     height= "600"  
        />   
        <br>
     <img src= "https://i.pinimg.com/736x/d0/ef/4f/d0ef4fbdcac9955b81a66c702bbc55b7.jpg" 
        alt= "You are seeing a painting of people sharing dinner." 
        title= "Jack Vetttriano Elegy for a Dead Animal." 
        width= "550" 
-       height= "500" 
+       height= "500"  
+    
          /> 
-    <header> Jump Around the Website</header>
+<div id="navigate" class="nav"><h2>Jump Around the Website</h2>
         <a href="#about">Hop to "About"</a> </header> <br>
         <a href="#facts">Leap to "Facts"</a> </header> <br>
         <a href="#contact">Bound to "Contact"</a> </header> <br>
+        </div>
 <main>
-    <div id="about"> <h1> About</h1>
+    <div id="about" class="abt"> <h1> About</h1>
      <h3> Hi! My name is Aspen.  
         <br>This website is to showcase some of the amazing work of the artist Jack Vettriano. </h3> 
         </div> 
         <br><br><br><br><br>
 
-    <div id="facts"> <h1> Facts </h1>
-     <h2> Here are some fun facts about web design:</h2> 
-     <p> 1. There are more than 1.7 billion webstites on the internet right now.</p> 
+    <div id="facts" class="fact"> <h1> Facts </h1>
+     <h3> Here are some fun facts about web design:</h3> 
+     <p> 1. There are more than 1.7 billion websites on the internet right now.</p> 
      <p> 2. The first ever blog was created in 1994. This may have paved the way for social media.</p> 
      <p> 3. Every minute YouTube uploads about 72 hours of videos to their platform.</p>  
      </div>
      <br><br><br><br><br>
 
-    <div id="contact"> <h1> Contact </h1>
+    <div id="contact" class="contact"> <h1> Contact </h1>
      <p>Please enter your email address to get more website facts and random pictures of paitnings.</p>
     <input type="email" name="email" />
-    <input type="submit" value="Submit" />  
+    <input type="submit" value="Submit" />  <br><br>
 
     <p>Check the box to suscribe to our news letter:</p>
-    <input type="checkbox" name="service" value="lab" /> Yes! Count me in!</p> 
+    <input type="checkbox" name="service" value="lab" /> Yes! Count me in!</p> <br><br>
+
     <p>Comments or Concerns:<br>
-    <textarea name="comments" id="test-textarea"> Leave them here.:)</textarea></p>  
+    <textarea name="comments" id="test-textarea"> Leave them here.:)</textarea></p>  <br><br>
 
     <p>Enter your first and last name to be considered the website champ of the year:</p>
     <input type="text" name="email" />
